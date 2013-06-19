@@ -35,7 +35,7 @@
   <scm>
     <connection>scm:git:https://forge.peergreen.com/git/git/feature/jaxrs/jersey.git</connection>
     <developerConnection>scm:git:https://forge.peergreen.com/git/git/feature/jaxrs/jersey.git</developerConnection>
-    <url>https://forge.peergreen.com/git/summary/?r=feature/jaxrs/tomcat7.git</url>
+    <url>https://forge.peergreen.com/git/summary/?r=feature/jaxrs/jersey.git</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -91,7 +91,7 @@
     <dependency>
       <groupId>com.peergreen.webcontainer</groupId>
       <artifactId>peergreen-webcontainer-api</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.felix</groupId>
@@ -110,7 +110,7 @@
     <dependency>
       <groupId>org.ow2.spec.ee</groupId>
       <artifactId>ow2-servlet-3.0-spec</artifactId>
-      <version>1.0.12</version>
+      <version>1.0.13</version>
       <scope>provided</scope>
     </dependency>
 
@@ -190,7 +190,7 @@
           <dependency>
             <groupId>org.apache.felix</groupId>
             <artifactId>bnd-ipojo-plugin</artifactId>
-            <version>1.10.1-SNAPSHOT</version>
+            <version>1.10.1</version>
           </dependency>
         </dependencies>
       </plugin>
@@ -212,6 +212,15 @@
     </repository>
   </repositories>
 
+  <pluginRepositories>
+    <pluginRepository>
+      <!-- TODO remove when iPOJO 1.10.1 will be promoted -->
+      <id>apache-felix-ipojo-plugin</id>
+      <name>Apache Felix iPOJO Staging Repository</name>
+      <url>https://repository.apache.org/content/repositories/orgapachefelix-021/</url>
+      <snapshots><enabled>false</enabled></snapshots>
+    </pluginRepository>
+  </pluginRepositories>
 
 </project>
 
