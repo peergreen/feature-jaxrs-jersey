@@ -27,6 +27,10 @@ import org.apache.felix.ipojo.annotations.Instantiate;
 import org.apache.felix.ipojo.annotations.Provides;
 import org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer;
 
+/**
+ * This component is registering Jersey as Servlet Container Initializer
+ * @author Florent Benoit
+ */
 @Component
 @Instantiate
 @Provides(specifications={ServletContainerInitializer.class})
