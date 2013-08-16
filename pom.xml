@@ -52,6 +52,13 @@
         </exclusion>
       </exclusions>
     </dependency>
+
+    <dependency>
+      <groupId>org.glassfish.jersey.media</groupId>
+      <artifactId>jersey-media-json-processing</artifactId>
+      <version>${jersey.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-common</artifactId>
@@ -159,6 +166,12 @@
       <version>2.1.96</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.glassfish</groupId>
+      <artifactId>jsonp-jaxrs</artifactId>
+      <version>1.0</version>
+    </dependency>
+    
     
   </dependencies>
 

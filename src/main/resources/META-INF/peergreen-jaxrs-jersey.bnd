@@ -5,11 +5,13 @@ Private-Package com.peergreen.jaxrs.jersey.*,\
                 org.glassfish.hk2*, \
                 org.jvnet.*, \
                 org.objectweb.asm.*, \
-                net.sf.cglib.*
+                net.sf.cglib.*, \
+                org.glassfish.json.jaxrs
 
 Embed-Dependency  jersey-container-servlet;inline=true, \
                   jersey-common;inline=true, \
-                  jersey-container-servlet-core;inline=true
+                  jersey-container-servlet-core;inline=true, \
+                  jersey-media-json-processing;inline=true
                   
 Import-Package !org.apache.tools.ant*, \
                *    
