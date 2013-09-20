@@ -27,7 +27,8 @@
   <name>Peergreen JAXRS with jersey</name>
 
   <properties>
-    <jersey.version>2.0</jersey.version>
+    <jersey.version>2.2</jersey.version>
+    <hk2.version>2.2.0-b14</hk2.version>
     <apache-rat-plugin.ignoreErrors>false</apache-rat-plugin.ignoreErrors>
   </properties>
 
@@ -80,7 +81,7 @@
         </exclusion>
       </exclusions>
     </dependency>
-    
+
 
     <dependency>
       <groupId>org.testng</groupId>
@@ -128,11 +129,11 @@
     </dependency>
 
 
-    <!-- HK2 -->    
+    <!-- HK2 -->
     <dependency>
       <groupId>org.glassfish.hk2</groupId>
       <artifactId>hk2-api</artifactId>
-      <version>2.1.96</version>
+      <version>${hk2.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -144,25 +145,25 @@
     <dependency>
       <groupId>org.glassfish.hk2</groupId>
       <artifactId>hk2-locator</artifactId>
-      <version>2.1.96</version>
+      <version>${hk2.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.hk2</groupId>
       <artifactId>hk2-utils</artifactId>
-      <version>2.1.96</version>
+      <version>${hk2.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.hk2.external</groupId>
       <artifactId>asm-all-repackaged</artifactId>
-      <version>2.1.96</version>
+      <version>${hk2.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.glassfish.hk2.external</groupId>
       <artifactId>cglib</artifactId>
-      <version>2.1.96</version>
+      <version>${hk2.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
