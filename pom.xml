@@ -22,7 +22,7 @@
   <packaging>bundle</packaging>
   <groupId>com.peergreen.jaxrs</groupId>
   <artifactId>peergreen-jaxrs-jersey</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
 
   <name>Peergreen JAXRS with jersey</name>
 
@@ -36,7 +36,7 @@
     <connection>scm:git:https://forge.peergreen.com/git/git/feature/jaxrs/jersey.git</connection>
     <developerConnection>scm:git:https://forge.peergreen.com/git/git/feature/jaxrs/jersey.git</developerConnection>
     <url>https://forge.peergreen.com/git/summary/?r=feature/jaxrs/jersey.git</url>
-    <tag>PEERGREEN_JAXRS_JERSEY_1_0_1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
